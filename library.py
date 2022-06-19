@@ -158,3 +158,6 @@ class Dolphin:
         response = requests.post('http://142.132.182.77:81/browser_profiles', headers=headers, json=json_data)
 
         return response.json()
+
+# class Octo:
+#     def
